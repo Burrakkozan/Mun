@@ -1,6 +1,6 @@
 # Project Name
 > Project.
-> Live demo [_here_](https://www.muuen.cf--). <!-- If you have the project hosted somewhere, include the link here. -->
+> Live demo [_here_](https://www.muen.cf--). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -14,7 +14,7 @@
 
 
 ## Screenshots
-![screenshot](./src/img/per2.png)
+![screenshot](./src/img/acex-5.png)
 
 <!-- If you have screenshots you'd like to share, include them here. -->
 
