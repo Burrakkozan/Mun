@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import Footer from "../Components/Footer";
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
-import proFF from "../img/proFF.png";
+import proFF from "../img/proFF-min.png";
 import pro3p from "../img/pro3p.png";
 import pro2 from "../img/pro2.png";
 import logos from '../img/logos.svg';
@@ -10,7 +10,7 @@ import pro4 from "../img/pro4.png";
 import ze1 from "../img/1ze.png";
 import ze2 from "../img/2ze.png";
 import ze3 from "../img/3ze.png";
-import ze12 from "../img/ze12.png";
+import ze12 from "../img/ze12-1.png";
 import zers from "../img/zers.png";
 import { Link } from "react-router-dom";
 import { CgColorBucket } from "react-icons/cg";
