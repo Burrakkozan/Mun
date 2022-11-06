@@ -47,6 +47,33 @@ function App() {
         gtag('config', '${process.env.GOOGLE_ANALYTICS_ID}');
       `}
     </script> 
+    <script type="application/ld+json">
+      {
+       `
+       "@context": "https://schema.org/",
+       "@type": "WebSite",
+       "name": "Muen",
+       "url": "https://www.muen.cf/",
+       "potentialAction": {
+         "@type": "SearchAction",
+         "target": "https://www.muen.cf/{search_term_string}",
+         "query-input": "required name=search_term_string"
+       },
+       {
+         "@context": "https://schema.org",
+         "@type": "Organization",
+         "name": "Muen",
+         "url": "https://www.muen.cf/",
+         "logo": "https://www.muen.cf/static/media/logos.eca5039d2c09f579075678a78027c20b.svg",
+         "sameAs": [
+           "https://www.instagram.com/burrakozcaan/",
+           "https://tr.pinterest.com/burrakozcaaan/",
+           "https://www.muen.cf/"
+         ]
+       }
+       `
+      }
+      </script>
 </Helmet>
   const root = useRef();
   const tl = useRef();
