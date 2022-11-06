@@ -20,6 +20,7 @@ import "@google/model-viewer/dist/model-viewer";
 import Poster from "../poster.webp";
 import Poster2 from "../poster2.webp";
 import acex from '../img/acex-5.png';
+import { Helmet } from 'react-helmet-async';
 
 
 const Home = () => {
@@ -120,16 +121,20 @@ const Home = () => {
               </a> 
             </div>
             <div className="content__image">
+              
             <model-viewer
             src="/GIFTPREZ.glb"
             ios-src=""
             poster={Poster}
             alt="A 3D model of an astronaut"
             shadow-intensity="1"
-             camera-controls
+            camera-controls 
              auto-rotate
              ar
-      ></model-viewer>
+      >
+  
+      </model-viewer>
+     
               </div>
           {/*   <svg
               className="image-clip"
