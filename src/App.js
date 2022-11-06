@@ -36,7 +36,7 @@ function App() {
   <title>Home</title>
   <meta name="description" content="Creating a hoodie pattern design, which is a visual expression of an idea or intention, has been a process for us because A cozy hoodie pattern design is a wardrobe must-have – both casual and stylish. We preferred to make this hoodie model by adding stripes and animal figures.Please contact us and get one step closer to your dream design" />
   <link rel="canonical" href="https://wwww.muen.cf/" />
-{/* 
+
   <sript src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_ID}`} strategy='afterInteractive' />
     <script id="google-analytics" strategy='afterInteractive'>
       {`
@@ -46,7 +46,7 @@ function App() {
 
         gtag('config', '${process.env.GOOGLE_ANALYTICS_ID}');
       `}
-    </script> */}
+    </script> 
 </Helmet>
   const root = useRef();
   const tl = useRef();
