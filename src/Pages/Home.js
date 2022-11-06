@@ -221,6 +221,7 @@ const Home = () => {
               y={0}
               width={500}
               height={750}
+              alt="model hoodie"
             />
           </svg>
           <svg
@@ -245,6 +246,7 @@ const Home = () => {
               y={0}
               width={500}
               height={750}
+              alt="model hoodie"
             />
           </svg>
           <svg
@@ -521,6 +523,7 @@ const Home = () => {
                 y={0}
                 width={1000}
                 height={715}
+                alt="model hoodie"
               />
             </svg>
             <svg
