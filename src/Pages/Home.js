@@ -2,9 +2,9 @@ import React, { useEffect } from 'react'
 import Footer from "../Components/Footer";
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
-import proFF from "../img/proFF-min.png";
+/* import proFF from "../img/proFF-min.png"; */
 import pro3p from "../img/pro3p.png";
-import pro2 from "../img/pro2.png";
+/* import pro2 from "../img/pro2.png"; */
 import logos from '../img/logos.svg';
 import pro4 from "../img/pro4.png";
 import ze1 from "../img/1ze.png";
@@ -19,6 +19,7 @@ import lax from 'lax.js';
 import "@google/model-viewer/dist/model-viewer";
 import Poster from "../poster.webp";
 import Poster2 from "../poster2.webp";
+import acex from '../img/acex-5.png';
 
 
 const Home = () => {
@@ -68,8 +69,9 @@ const Home = () => {
         <section className="content">
           <div
             className="content__bg content__bg--bottom"
-            style={{ backgroundImage: `url(${proFF})` }}
+  style={{ backgroundImage: `url(${pro4})` }} 
           >
+           
             <svg
               className="separator separator--up"
               width="100%"
@@ -158,8 +160,9 @@ const Home = () => {
         <section className="content">
           <div
             className="content__bg content__bg--bottom"
-            style={{ backgroundImage: `url(${pro4})` }}
+             style={{ backgroundImage: `url(${acex})` }} 
           >
+           
             <svg
               className="separator separator--up"
               width="100%"
@@ -190,7 +193,7 @@ const Home = () => {
             </svg>
             <div className="content__title text-light content__title--right">
               <Slide top cascade>
-                <span className="content__title-pre">Muuen of</span>
+                <span className="content__title-pre">Muen of</span>
               </Slide>
               <Slide bottom cascade>
                 <h2 className="content__title-main">Top</h2>
@@ -222,6 +225,7 @@ const Home = () => {
               width={500}
               height={750}
               alt="model hoodie"
+             
             />
           </svg>
           <svg
@@ -239,6 +243,7 @@ const Home = () => {
                 />
               </clipPath>
             </defs>
+          
             <image
               clipPath="url(#shape1)"
               xlinkHref={zers}
@@ -247,6 +252,7 @@ const Home = () => {
               width={500}
               height={750}
               alt="model hoodie"
+            
             />
           </svg>
           <svg
@@ -524,6 +530,7 @@ const Home = () => {
                 width={1000}
                 height={715}
                 alt="model hoodie"
+                
               />
             </svg>
             <svg
